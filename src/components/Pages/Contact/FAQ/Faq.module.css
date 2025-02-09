@@ -1,0 +1,36 @@
+.item {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .question {
+    color: white;
+    background: rgb(34,34,34);
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .toggleButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #62a8ac;
+  }
+  
+  .answerContainer {
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+
+  }
+  
+  .answer {
+    padding: 10px;
+    color: rgb(168, 168, 168) !important;
+    background: rgb(34,34,34);
+  }

@@ -1,0 +1,16 @@
+.home-header{
+    background-color: #222222;
+    text-align: center;
+    position: fixed;
+    top: 72px;
+    z-index: -1;
+}
+.home-header h1{
+    color: white;
+    width: 90%;
+    margin: 0 auto; 
+    font-size: 10vw; 
+}
+.home-header h1 .mark{
+    font-size: 1em; /* Make font size relative to the parent h1 */
+}

@@ -1,0 +1,129 @@
+.mySwiper {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  
+  .swiperSlide {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 550px;
+    height: 350px;
+    padding: 20px;
+  }
+  
+  .serviceCard {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .serviceCard:hover {
+    box-shadow: none;
+    transform: none;
+  }
+  
+  .serviceCard i {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 48px;
+    background: linear-gradient(90deg, #174979, #1c5d99, #639fab, #62a8ac);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: Gradient 3s ease infinite;
+  }
+  
+  .serviceCard h3 {
+    background: linear-gradient(90deg, #174979, #1c5d99, #639fab, #62a8ac);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 15px;
+    animation: Gradient 3s ease infinite;
+  }
+  
+  .serviceCard p {
+    color: #6c757d;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+  }
+  
+  .keyFeatures h4 {
+    color: #495057;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .keyFeatures ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .keyFeatures ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #6c757d;
+  }
+  
+  .mySwiper .swiper-pagination .swiper-pagination-bullet {
+    background-color: #007bff !important;
+  }
+  
+  .mySwiper .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #2b6777 !important;
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .serviceCard h3 {
+      font-size: 24px;
+    }
+    .serviceCard p,
+    .keyFeatures ul li {
+      font-size: 14px;
+    }
+    .swiperSlide {
+      width: 350px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .swiperSlide {
+      width: 280px;
+    }
+  }

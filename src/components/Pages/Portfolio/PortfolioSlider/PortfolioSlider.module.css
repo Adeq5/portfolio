@@ -1,0 +1,65 @@
+.mySwiper {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .swiperSlide {
+    background-color: #222 !important;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .swiperSlide::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: linear-gradient(90deg, #174979, #1c5d99, #639fab, #62a8ac);
+    background-size: 400% 400%;
+    border-radius: 15px 0 0 15px;
+    animation: Gradient 3s ease infinite;
+  }
+  
+  .slideContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .slideText {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .slideImage {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .slideImage img {
+    width: 720px;
+    height: 420px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

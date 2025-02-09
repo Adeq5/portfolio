@@ -1,0 +1,53 @@
+.how-we-work {
+    background-color: #222222;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .discovery .icon {
+    color: #a352da;
+  }
+  
+  .planning .icon {
+    color: #f4ff8d;
+  }
+  
+  .development .icon {
+    color: #41dd68;
+  }
+  
+  .testing .icon {
+    color: #d84a56;
+  }

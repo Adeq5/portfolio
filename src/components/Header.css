@@ -1,0 +1,131 @@
+/* General Navbar Styling */
+nav {
+    background-color: #222222;
+    padding: 1rem 0;
+    font-family: 'Geologica';
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    z-index: 150;
+  }
+  
+  .logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /* Hamburger Button */
+  .hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Links */
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a, .active-secondary  {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-links a.active, .nav-links a:hover, .active-secondary {
+    transform: scale(1.2);
+    color: #ffffff;
+    background: linear-gradient(-45deg, #174979, #1c5d99, #639fab, #62a8ac);
+    background-size: 400% 400%;
+    animation: Gradient 3s ease infinite;
+  }
+  .active-secondary{
+    display: none;
+  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hamburger-container{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem; 
+    }
+    .hamburger {
+      display: block;
+    }
+    .active-secondary{
+        display: block;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      background-color: #222222;
+      position: absolute;
+      top: 4rem;
+      right: 1rem;
+      width: 200px;
+      padding: 21px;
+      border-radius: 0px 0px 10px 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  
+      /* Dropdown Animation */
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+  
+    .nav-links.open {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      z-index: 100;
+    }
+  
+    .nav-links a {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-links a {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Keyframes for Gradient Animation */
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .language-button{
+    margin-left: 8px;
+  }

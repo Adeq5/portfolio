@@ -1,0 +1,81 @@
+.call-to-action-dark {
+    background-color: #333333;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .cta-headline-dark {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .cta-button-dark {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    animation: bounce 2s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+  .phone-icon{
+    font-size: 24px;
+    margin-left: 8px;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .call-to-action-dark {
+      width: 90%;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+  
+    .cta-headline-dark {
+      font-size: 1.5rem;
+    }
+  
+    .cta-button-dark {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    .phone-icon {
+      font-size: 20px;
+    }
+  }
