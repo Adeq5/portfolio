@@ -47,23 +47,23 @@ const resources = {
             button: "Explore All Services"
           },
           reviews: {
-            slide1: {
-              author: "John D., Small Business Owner",
-              text: "\"Working with PuenTech was an absolute pleasure! They transformed my outdated website into a sleek and modern platform that has already attracted more clients. Highly recommend their services!\""
-            },
-            slide2: {
-              author: "Jane S., Freelancer",
-              text: "\"PuenTech's team is incredibly talented and professional. They delivered a top-notch website that exceeded my expectations. I couldn't be happier with the results!\""
-            },
-            slide3: {
-              author: "Michael R., Startup Founder",
-              text: "\"From start to finish, the process was seamless. PuenTech not only brought my vision to life but also offered valuable suggestions that enhanced the final product. I'll definitely work with them again!\""
-            },
-            slide4: {
-              author: "Emily S., Marketing Manager",
-              text: "\"The team at PuenTech is amazing! They quickly understood our needs and built a website that perfectly showcases our brand. We’ve seen a noticeable increase in engagement since the launch.\""
-            }
-          }
+  slide1: {
+    author: "John D.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.\""
+  },
+  slide2: {
+    author: "Jane S.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.\""
+  },
+  slide3: {
+    author: "Michael R.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.\""
+  },
+  slide4: {
+    author: "Emily S.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident.\""
+  }
+}
         },
         about: {
           whoWeAre: "Who We Are?",
@@ -105,16 +105,15 @@ const resources = {
             },
             faqHeading: "FAQ",
             faq: {
-              q1: "How long does it take to build a website?",
-              a1:
-                "MenageUp is an ERP system designed to streamline your business processes and improve efficiency.",
-              q2: "What technologies do you use for development?",
-              a2:
-                "MenageUp integrates key functionalities such as finance, HR, and operations into one seamless platform.",
-              q3: "Do you offer maintenance services?",
-              a3:
-                "Yes, MenageUp is highly customizable to suit various business needs and workflows."
-            },
+  q1: "How long does it take to create a website?",
+  a1: "The timeline depends on the complexity of the project. A simple landing page or brochure website usually takes 1-2 weeks, while a more advanced website or e-commerce store typically requires 4 to 8 weeks.",
+  
+  q2: "What technologies do you use for website development?",
+  a2: "We use modern, proven technologies tailored to the client's needs. We build websites using popular CMS platforms (e.g., WordPress), modern frontend frameworks (e.g., React, Vue.js, Next.js), and robust backend solutions, ensuring full responsiveness (RWD) and SEO optimization.",
+  
+  q3: "Do you offer post-launch support and maintenance for the websites?",
+  a3: "Yes, we provide comprehensive technical support after the website goes live. This includes regular system and plugin updates, automated backups, security monitoring, and assistance with uploading new content or making modifications."
+}
             form: {
               name: "Name",
               lastName: "Last Name",
@@ -268,23 +267,23 @@ const resources = {
           button: "Poznaj wszystkie usługi"
         },
         reviews: {
-          slide1: {
-            author: "John D., właściciel małej firmy",
-            text: "\"Współpraca z PuenTech była czystą przyjemnością! Odnowili moją przestarzałą stronę, tworząc elegancki i nowoczesny serwis, który już przyciągnął więcej klientów. Gorąco polecam ich usługi!\""
-          },
-          slide2: {
-            author: "Jane S., Freelancer",
-            text: "\"Zespół PuenTech jest niezwykle utalentowany i profesjonalny. Dostarczyli stronę na najwyższym poziomie, która przerosła moje oczekiwania. Jestem bardzo zadowolona z efektów!\""
-          },
-          slide3: {
-            author: "Michael R., założyciel startupu",
-            text: "\"Od początku do końca cały proces przebiegał bezproblemowo. PuenTech nie tylko zrealizował moją wizję, ale także zaproponował cenne sugestie, które podniosły ostateczną jakość produktu. Z pewnością skorzystam z ich usług ponownie!\""
-          },
-          slide4: {
-            author: "Emily S., menedżer ds. marketingu",
-            text: "\"Zespół PuenTech jest niesamowity! Szybko zrozumieli nasze potrzeby i stworzyli stronę, która idealnie prezentuje naszą markę. Od momentu wdrożenia zauważyliśmy znaczący wzrost zaangażowania.\""
-          }
-        }
+  slide1: {
+    author: "John D.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.\""
+  },
+  slide2: {
+    author: "Jane S.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.\""
+  },
+  slide3: {
+    author: "Michael R.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.\""
+  },
+  slide4: {
+    author: "Emily S.",
+    text: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident.\""
+  }
+}
       },
         about: {
           whoWeAre: "Kim jesteśmy?",
@@ -327,16 +326,15 @@ const resources = {
               },
               faqHeading: "FAQ",
               faq: {
-                q1: "Jak długo trwa stworzenie strony internetowej?",
-                a1:
-                  "MenageUp to system ERP zaprojektowany, aby usprawnić procesy biznesowe i zwiększyć efektywność.",
-                q2: "Jakich technologii używacie przy tworzeniu stron?",
-                a2:
-                  "MenageUp integruje kluczowe funkcjonalności, takie jak finanse, HR i operacje, w jedną spójną platformę.",
-                q3: "Czy oferujecie usługi wsparcia dla wykonanych stron?",
-                a3:
-                  "Tak, MenageUp jest wysoce konfigurowalny, aby sprostać różnorodnym potrzebom biznesowym i procesom pracy."
-              },
+  q1: "Jak długo trwa stworzenie strony internetowej?",
+  a1: "Czas realizacji zależy od stopnia skomplikowania projektu. Prosta strona wizytówkowa powstaje zazwyczaj w 1-2 tygodnie, natomiast bardziej zaawansowany serwis lub sklep internetowy (e-commerce) wymaga od 4 do 8 tygodni pracy.",
+  
+  q2: "Jakich technologii używacie przy tworzeniu stron?",
+  a2: "Korzystamy z nowoczesnych i sprawdzonych rozwiązań dopasowanych do potrzeb klienta. Tworzymy strony w oparciu o systemy CMS (np. WordPress), nowoczesne frameworki (np. React, Vue.js, Next.js) oraz technologie backendowe, dbając o pełną responsywność (RWD) i optymalizację pod SEO.",
+  
+  q3: "Czy oferujecie usługi wsparcia dla wykonanych stron?",
+  a3: "Tak, po wdrożeniu strony oferujemy kompleksowe wsparcie techniczne. Obejmuje ono regularne aktualizacje systemu i wtyczek, tworzenie kopii zapasowych, monitorowanie bezpieczeństwa oraz pomoc przy wprowadzaniu nowych treści i modyfikacji."
+},
               form: {
                 name: "Imię",
                 lastName: "Nazwisko",

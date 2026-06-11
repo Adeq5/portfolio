@@ -5,7 +5,7 @@ import "./Services.css";
 import ServiceCarousel from "./ServicesCarusel/ServiceCarousel";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-
+import { Link } from "react-router";
 const Services = () => {
   const { t } = useTranslation();
 
@@ -35,7 +35,9 @@ const Services = () => {
       <header>
         <h1>{t("services.header.title")}</h1>
         <p>{t("services.header.subtitle")}</p>
-        <button className="btn">{t("services.header.button")}</button>
+        <Link to="/contact" className="btn">
+          {t("services.header.button")}
+        </Link>
       </header>
       <section>
         <ServiceCarousel />
@@ -44,7 +46,7 @@ const Services = () => {
         <HowWeWork />
       </section>
       <section>
-        <CallToAction />
+        <CallToAction link="/contact " />
       </section>
     </div>
   );

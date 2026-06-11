@@ -2,16 +2,22 @@
 import React from "react";
 import "./CallToAction.css";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 
-const CallToAction: React.FC = () => {
+interface CallToActionProps {
+  link?: string;
+}
+const CallToAction: React.FC<CallToActionProps> = ({ link }) => {
   const { t } = useTranslation();
 
   return (
     <div className="call-to-action">
       <h2 className="cta-headline">{t("services.callToAction.headline")}</h2>
-      <button className="cta-button">
-        {t("services.callToAction.button")}
-      </button>
+      <Link to={link || "/"}>
+        <button className="cta-button">
+          {t("services.callToAction.button")}
+        </button>
+      </Link>
     </div>
   );
 };

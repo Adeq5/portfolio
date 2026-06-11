@@ -42,7 +42,7 @@ const Home = () => {
               </h1>
               <p>{t("home.header.text")}</p>
               <div className="buttons-container">
-                <Link to="/contact" className="cta-button">
+                <Link to="/portfolio" className="cta-button">
                   {t("home.header.button")}
                 </Link>
               </div>
@@ -68,7 +68,9 @@ const Home = () => {
                 {t("home.whyUs.accessibleSupport_text")}
               </li>
             </ul>
-            <button className="btn">{t("home.whyUs.button")}</button>
+            <Link to="/contact" className="btn">
+              {t("home.whyUs.button")}
+            </Link>
           </div>
           <div className="reviews-container animate-on-scroll">
             <Reviews />
@@ -108,9 +110,11 @@ const Home = () => {
               <p>{t("home.services.customSoftware.text")}</p>
             </div>
           </div>
-          <button className="btn">{t("home.services.button")}</button>
+          <Link to="/services" className="btn">
+            {t("home.services.button")}
+          </Link>
         </section>
-        <CallToAction />
+        <CallToAction link="/contact" />
       </main>
     </React.Fragment>
   );
