@@ -5,7 +5,7 @@ import CallToAction from "../CallToAction/CallToAction";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import mockupImg from "../../img/mockup.png";
-
+import { Link } from "react-router";
 const Home = () => {
   const { t } = useTranslation();
 
@@ -42,9 +42,9 @@ const Home = () => {
               </h1>
               <p>{t("home.header.text")}</p>
               <div className="buttons-container">
-                <button className="cta-button">
+                <Link to="/contact" className="cta-button">
                   {t("home.header.button")}
-                </button>
+                </Link>
               </div>
             </div>
             <img src={mockupImg} alt="mockup" className="mockup-image" />
