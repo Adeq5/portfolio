@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import brtiFlag from "../img/flags/britishFlag.png";
-import plFlag from "../img/flags/polishFlag.png";
+import brtiFlag from "./img/flags/britishFlag.png";
+import plFlag from "./img/flags/polishFlag.png";
 
 const LanguageButton = () => {
   const { i18n } = useTranslation();
