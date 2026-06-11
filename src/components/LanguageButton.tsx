@@ -1,4 +1,6 @@
 import { useTranslation } from "react-i18next";
+import brtiFlag from "../img/flags/britishFlag.png";
+import plFlag from "../img/flags/polishFlag.png";
 
 const LanguageButton = () => {
   const { i18n } = useTranslation();
@@ -33,11 +35,7 @@ const LanguageButton = () => {
       className="language-button"
     >
       <img
-        src={
-          i18n.language === "en"
-            ? "src/components/img/flags/britishFlag.png"
-            : "src/components/img/flags/polishFlag.png"
-        }
+        src={i18n.language === "en" ? brtiFlag : plFlag}
         alt={i18n.language === "en" ? "Flaga brytyjska" : "Flaga polska"}
         style={imageStyle}
       />
