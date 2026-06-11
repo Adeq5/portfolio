@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./PortfolioGrid.css";
 import { useTranslation } from "react-i18next";
-
+import mockupImg from "../../img/pexels-goumbik-574071.jpg";
 interface Project {
   id: number;
   title: string;
@@ -19,10 +19,10 @@ const PortfolioGrid: React.FC = () => {
     {
       id: 1,
       title: "Fundacja bądź w ruchu",
-      imageUrl: "src/components/img/pexels-goumbik-574071.jpg",
+      imageUrl: mockupImg,
       description: t("portfolio.description.w_ruchu"),
       technologies: ["HTML", "JS", "CSS", "PHP", "MySQL", "TinyMCE"],
-      liveLink: "https://example.com/project1",
+      liveLink: "https://www.fundacjabadzwruchu.pl",
     },
   ];
 
