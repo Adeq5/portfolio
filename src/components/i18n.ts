@@ -113,7 +113,7 @@ const resources = {
   
   q3: "Do you offer post-launch support and maintenance for the websites?",
   a3: "Yes, we provide comprehensive technical support after the website goes live. This includes regular system and plugin updates, automated backups, security monitoring, and assistance with uploading new content or making modifications."
-}
+},
             form: {
               name: "Name",
               lastName: "Last Name",
