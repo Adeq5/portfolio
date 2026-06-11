@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCreative } from "swiper/modules";
 import { Scrollbar } from "swiper/modules";
-import { Autoplay } from "swiper/modules";
 import styles from "./PortfolioSlider.module.css";
 
 const PortfolioSlider = () => {
