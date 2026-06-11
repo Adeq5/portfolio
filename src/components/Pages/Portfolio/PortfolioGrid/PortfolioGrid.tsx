@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./PortfolioGrid.css";
 import { useTranslation } from "react-i18next";
-import mockupImg from "../../img/pexels-goumbik-574071.jpg";
+import mockupImg from "../../../img/pexels-goumbik-574071.jpg";
 interface Project {
   id: number;
   title: string;
