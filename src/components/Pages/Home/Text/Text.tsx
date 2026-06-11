@@ -1,6 +1,5 @@
 import "./Text.css";
 import { useEffect, useRef } from "react";
-import { FaReact } from "react-icons/fa";
 const Text = () => {
   const textRef = useRef<HTMLParagraphElement>(null);
 
