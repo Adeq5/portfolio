@@ -4,6 +4,8 @@ import Reviews from "./Reviews/Reviews";
 import CallToAction from "../CallToAction/CallToAction";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import mockupImg from "../../img/mockup.png";
+
 const Home = () => {
   const { t } = useTranslation();
 
@@ -45,11 +47,7 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <img
-              src="src/components/img/mockup.png"
-              alt="mockup"
-              className="mockup-image"
-            />
+            <img src={mockupImg} alt="mockup" className="mockup-image" />
           </div>
         </section>
         <section className="why-us-container">
